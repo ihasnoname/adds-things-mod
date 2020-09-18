@@ -1,0 +1,32 @@
+type: ArtilleryTurret
+name: Iron sprayer
+description: A turret that sprays iron everywhere.
+health: 300
+size: 1
+buildCostMultiplier: 0.3
+reload: 20
+range: 150
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0.7
+rotatespeed: 10
+targetAir: true
+targetGround: true
+ammo: {
+       iron: {
+   speed: 5
+   damage: 5
+   splashDamageRadius: 50
+   splashDamage: 20
+   bulletWidth: 9
+   bulletHeight: 11
+   shootEffect: shootSmall
+   smokeEffect: shootSmallSmoke
+   ammoMultiplier: 16
+ }
+}
+requirements: [
+  lead/12
+  graphite/5
+]
+category: turret
+research: duo

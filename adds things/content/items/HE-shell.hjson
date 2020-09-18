@@ -1,0 +1,6 @@
+type: material
+name: HE shell
+description: High explosive shell. Used as ammo.
+hardness: 3
+cost: 1
+color: fd1d53

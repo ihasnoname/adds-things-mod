@@ -1,0 +1,6 @@
+type: material
+name: Cryo gem
+description: A cryo gem. Cold to the touch. Has unique properties
+hardness: 3
+cost: 1
+color: 0080FF

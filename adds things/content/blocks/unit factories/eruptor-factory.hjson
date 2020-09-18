@@ -1,0 +1,28 @@
+{
+	"type": "unitFactory",
+	"name": "Eruptor factory",
+	"description": "Constructs eruptors.",
+	"unitType": "eruptor",//it has come to reap...
+	"produceTime": 900,
+	"size": 2,
+	"maxSpawn": 4,
+	"consumes": {
+         liquid: {
+    liquid: slag
+    amount: 0.65}
+		"power": 0.5,
+		"items": {
+		"items": [
+            {"item": "graphite", "amount": 15.0},
+            {"item": "silicon", "amount": 20.0},
+      ]
+		}
+  },
+	"requirements": [
+		{"item": "lead", "amount": 80}
+		{"item": "silicon", "amount" : 30}
+		{ "item": "graphite", "amount": 50},
+	],
+	"category": "units",
+	"research": "titan-factory"
+}

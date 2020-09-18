@@ -1,0 +1,23 @@
+name: Steel drill
+description: A drill made of steel. Mines faster than pneumatic drills and requires no power.
+type: Drill
+size: 2
+tier: 3
+buildCostMultiplier: 0.05
+drillTime: 315
+liquidBoostIntensity: 1.6
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.07
+	optional: true
+    booster: true
+  }
+}
+requirements: [
+  graphite/10
+  steel/10
+  copper/5
+]
+category: production
+research: pneumatic-drill
