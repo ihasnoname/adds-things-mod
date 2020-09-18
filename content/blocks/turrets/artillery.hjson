@@ -1,0 +1,33 @@
+type: ArtilleryTurret
+name: Artillery
+description: A artillery turret. Has high splash damage.
+health: 940
+size: 2
+buildCostMultiplier: 0.3
+reload: 130
+range: 350
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0.7
+rotatespeed: 10
+targetAir: true
+targetGround: true
+ammo: {
+       HE-shell: {
+   speed: 5
+   damage: 255
+   splashDamageRadius: 50
+   splashDamage: 255
+   bulletWidth: 9
+   bulletHeight: 11
+   shootEffect: shootSmall
+   smokeEffect: shootSmallSmoke
+   ammoMultiplier: 7
+ }
+}
+requirements: [
+  iron/70
+  lead/40
+  graphite/55
+]
+category: turret
+research: HE-assembler

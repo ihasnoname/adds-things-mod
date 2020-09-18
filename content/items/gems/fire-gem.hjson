@@ -1,0 +1,6 @@
+type: material
+name: Fire gem
+description: A fire gem. Warm to the touch. Has unique properties.
+hardness: 3
+cost: 1
+color: FF2203

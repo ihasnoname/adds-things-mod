@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Lead to iron
+description: Turns lead into iron. Uses low energy.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 40
+craftEffect: smeltsmoke
+consumes: {
+  power: 0.06
+  items:
+{
+  items:[
+    lead/1
+    ]
+  }
+}
+outputItem: iron/1
+requirements: [
+  copper/100
+  lead/50
+]
+category: crafting
+research: pneumatic-drill
+idleSound: respawning
+idleSoundVolume: 0.2

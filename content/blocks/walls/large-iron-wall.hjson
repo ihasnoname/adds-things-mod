@@ -1,0 +1,11 @@
+name: Large iron wall
+description: A wall made of iron. A little worse than titanium.spans multiple tiles.
+type: Wall
+health: 1680
+size: 2
+buildCostMultiplier: 0.5
+requirements: [
+  iron/28
+]
+category: defense
+research: iron-wall

@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Sandbag assembler
+description: Makes sandbags using sand.
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 18
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.25
+  items: {
+    items: [
+      sand/2
+    ]
+  }
+}
+requirements: [
+  lead/20
+  copper/40
+  graphite/10
+]
+category: crafting
+research: pneumatic-drill
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: sandbag/1

@@ -1,0 +1,11 @@
+name: Large steel wall
+description: A steel wall. Very durable. Spans multiple tiles.
+type: Wall
+health: 3565
+size: 2
+buildCostMultiplier: 0.5
+requirements: [
+  steel/24
+]
+category: defense
+research: steel-wall
